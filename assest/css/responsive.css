@@ -1,0 +1,196 @@
+@media(max-width:1023px){
+    .banner__content-left,
+    .banner__content-right{
+        width: 100%;
+        
+    }
+    .banner__content-left{
+        margin-bottom: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .banner__left-title{
+        font-size: 5rem;
+    }
+    .banner__left-describle{
+        font-size: 1.5rem;
+    }
+    .clip-path,
+    .clip-path svg{
+        height: 260px;
+    }
+    .post__item{
+        text-align: center;
+    }
+    .footer{
+        justify-content: center;
+    }
+    .footer__item{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .copyright__icon,
+    .copyright__text
+    {
+        width: 100%;
+    }
+    .copyright-wrapper{
+        padding: 52px 0;
+    }
+    .copyright__text{
+        margin-bottom: 40px;
+    }
+    .copyright__icon i{
+        padding: 0 14px;
+    }
+    .fancybox__content{
+        transform: translateY(-100px);
+    }
+    .feature__item{
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .feature__item-heading{
+        text-align: center;
+    }
+    .clip-path--top,
+    .clip-path--bottom,
+    .clip-path--top svg,
+    .clip-path--bottom svg
+    {
+        height: 200px;
+    }
+}
+@media(max-width:738px){
+    .banner__right-img{
+        max-height: 440px;
+    }
+    .header__menu-button{
+        display: flex;
+    }
+    .navbar__menu{
+        position: fixed;
+        top: 86px;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        left: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s ease;
+        z-index: 9999;
+    }
+    .navbar__menu.navbar__menu--active{
+        max-height: 200vh;
+    }
+    .navbar__menu-list{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .navbar__menu-link,
+    .navbar__icon-link
+    {
+        padding: 10px 20px;
+        font-size: 2rem;
+    }
+    .navbar__icon{
+        padding-bottom: 40px;
+    }
+    .clip-path--bottom{
+        height: 240px;
+    }
+
+    .footer-wrapper{
+        display: none;
+    }
+    .modal__body iframe{
+        height: 300px;
+    }
+    .clip-path--top,
+    .clip-path--bottom,
+    .clip-path--top svg,
+    .clip-path--bottom svg
+    {
+        height: 100px;
+    }
+    .header--active .navbar__menu-link,
+    .header--active .navbar__icon-link
+    {
+        color: white;
+    }
+    .header--active .navbar__icon-link:hover,
+    .header--active .navbar__menu-link:hover
+    {
+        color: rgba(105, 108, 114, 0.5);
+    }
+    .header__menu-button .btn--animatinon,
+    .header__menu-button .btn--animatinon::before,
+    .header__menu-button .btn--animatinon::after
+    {
+        background-color: white;
+    }
+    .header--active .header__menu-button .btn--animatinon,
+    .header--active .header__menu-button .btn--animatinon::before,
+    .header--active .header__menu-button .btn--animatinon::after
+    {
+        background-color: #303030;
+    }
+    .clip-path--positon,
+    .clip-path--positon svg{
+        height: 250px;
+    }
+}
+@media(max-width:576px){
+    .banner__left-title{
+        font-size: 3rem;
+    }
+    .banner__left-describle{
+        font-size: 1.4rem;
+    }
+    .btn--banner{
+        padding: 10px 32px;
+    }
+    .clip-path,
+    .clip-path svg{
+        height: 120px;
+    }
+    .form__group--button{
+        width: 100%;
+    }
+    .form__heading-title{
+        font-size: 2rem;
+    }
+    .feature__item{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .banner__content{
+        padding-top: 100px;
+    }
+    .banner__right-img{
+        max-height: 250px;
+    }
+    .work__content-img{
+        padding: 0;
+    }
+}
+@media(max-width:320px){
+    .banner__left-button{
+        text-align: center;
+    }
+    .btn--banner{
+        padding: 10px 32px;
+        margin-bottom: 20px;
+    }
+    .btn--banner:nth-child(1){
+        margin-right: 0;
+    }
+    .clip-path--top,
+    .clip-path--bottom{
+        height: 100px;
+    }
+}
